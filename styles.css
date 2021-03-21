@@ -1,0 +1,225 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: rgb(231, 227, 227); 
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: #fff;
+    }
+}
+
+.navbar{
+    padding: .8rem;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em i !important;
+}
+
+.navbar-default {
+    background-color: white;
+} 
+
+ .navbar-brand {
+    background-color: rgb(37, 175, 157);
+    color:white !important;
+    font-family: 'Lucida Sans';
+    font-size: 25px;
+    font-weight: bold;
+}  
+
+@media only screen and (max-width: 768px) {
+    .navbar-default {
+        background-color: rgb(37, 175, 157);
+    } 
+}
+
+.summary {
+    font-size: 14px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 90px;
+    background-color: white;
+    color: grey;
+}
+
+#main_pg_header {
+    color: rgb(37, 175, 157);
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+
+#summary_pic{
+    float: left;
+    width: 220px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    #main_pg_header{
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: left;
+    }
+  
+  
+}
+
+.sidebar_summary{
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+#visual_h2{
+    color: rgb(37, 175, 157);
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 5px;  
+    margin-left: 15px;
+}
+
+.div_visual {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav_img{
+    width: 150px;
+    height: 150px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.nav_img:active {
+    border: 2px solid rgb(37, 175, 157);
+}
+
+.hr_style{
+    color: rgb(105, 103, 102);
+    border-width: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav_img {
+        width: 100px;
+        height: 100px;
+    } 
+}
+
+.page_content{
+    font-size: 18px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 90px;
+    background-color: white;
+    color: grey;
+}
+
+#page_h1 {
+    color: rgb(37, 175, 157);
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    #page_h1 {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+  
+  
+}
+
+#compare_h1{
+    color: rgb(37, 175, 157);
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#compare_p{
+    font-size: 12px;
+    text-align: left;
+}
+
+.compare_h4{
+    color: rgb(37, 175, 157);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.compare {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color:white;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.comp{
+    margin-bottom: 60px;
+    width: 80%;
+}
+
+.table{
+    margin-bottom: 60px;
+} 
+.data_city {
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.data_h1 {
+    color: rgb(37, 175, 157);
+    font-size: 36px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.data_p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+
+
